@@ -4,10 +4,10 @@
  *
  *  Return: 1 for lowercase. 0 for others.
  */
-int _islower(int c)
+int _islower(int ch)
 
 {
-	if (c >= 'a' && c <= 'z')
+	if (ch >= 'a' && ch <= 'z')
 	{
 		return (1);
 	}
